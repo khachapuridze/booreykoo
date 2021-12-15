@@ -1,0 +1,79 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	/* overflow-x: hidden; */
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+}
+body {
+	margin: 0;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	overflow-x: hidden;
+}
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: $yellow;
+	transition: 0.3s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: $yellow;
+}
+
+ul,
+li,
+p,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+button,
+nav {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	font-weight: normal;
+}
+input,
+textarea {
+	outline: none;
+	box-shadow: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	-moz-appearance: textfield;
+}
+button {
+	border: none;
+	background: none;
+	cursor: pointer;
+	outline: none;
+}
+a {
+	text-decoration: unset;
+}
+
+.flex-box {
+	display: flex;
+}
